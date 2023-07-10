@@ -1,0 +1,33 @@
+.slider {
+
+    display:flex;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .slider.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider img {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+    align-items: center;
+  }
+  .slider-container {
+    width: 600px;
+    margin: 0px auto;
+    padding: 18px;
+    padding-bottom: 10px;
+    backface-visibility: hidden;
+    
+  }
+    
