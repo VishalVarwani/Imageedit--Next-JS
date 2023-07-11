@@ -7,6 +7,7 @@ import SliderComponent from './Sidebar';
 import SliderComponent2 from './Sidebar2';
 
 const PmageEditor = () => {
+
   const [canvas, setCanvas] = useState(null);
   const [backgroundImage, setBackgroundImage] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);

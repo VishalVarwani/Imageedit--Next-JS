@@ -1,8 +1,11 @@
 {
+  "homepage": "https://VishalVarwani.github.io/Imageedit--Next-JS",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -10,6 +13,8 @@
   },
   "dependencies": {
     "@uniformdev/canvas-next": "^19.33.0",
+    "bufferutil": "^4.0.7",
+    "canvas": "^2.11.2",
     "canvg": "^4.0.1",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
@@ -18,10 +23,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "utf-8-validate": "^6.0.3"
   },
   "devDependencies": {
-    "canvas": "^2.11.2",
     "extract-text-webpack-plugin": "^4.0.0-beta.0"
   }
 }
