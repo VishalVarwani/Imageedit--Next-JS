@@ -227,8 +227,8 @@ const PmageEditor = () => {
 
 
           <h3>Controls</h3>
-          <label>
-            &nbsp; Brightness : &nbsp;
+          <label  >
+           <h3> Brightness</h3>
             <input
               type="checkbox"
               onChange={handleBrightnessChange}

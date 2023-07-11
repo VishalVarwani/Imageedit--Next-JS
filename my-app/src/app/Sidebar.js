@@ -60,6 +60,14 @@ const SliderComponent = ({ canvas }) => {
     });
   };
 
+  const customPrevArrow = <div className="custom-prev-arrow">Previous</div>;
+  const customNextArrow = <div className="custom-next-arrow">Next</div>;
+
+  const settings = {
+    prevArrow: customPrevArrow,
+    nextArrow: customNextArrow,
+  };
+
 
   return (
     <>
