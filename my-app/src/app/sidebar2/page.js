@@ -67,7 +67,7 @@ const SliderComponent2 = ({ canvas }) => {
         <div key={index} className="slider-item">
           <img
             src={image}
-            height={200}
+            height={100}
             alt={`Image ${index + 1}`}
             draggable="true"
             onClick={() => handleImageClick(image)}
